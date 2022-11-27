@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    max-width: 92%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    background-color: #002434;
+   justify-content: center;
+    padding: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > div{
+    display: flex;
+    
+    width: 92%;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    margin-right: 10%;
+}
+
+strong{
+    color: #0095ce;
+}
+
+header > div > nav{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 60%;
+    margin-top: 8px;
+}
+
+header > div > nav > small{
+    color: white;
+    position: relative;
+    top: 0;
+}
+.sessao1 > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem1{
+    max-width: 100%;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: 50px;
+}
+
+.legendas{
+    position: relative;
+    top: -550px;
+    left: 50px;
+}
+
+h1{
+    font-size: 4.3em;
+    color: white;
+}
+
+.legendas > p{
+    max-width: 350px;
+    color: white;
+}
+
+.sessao2{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: #0076aa;
+    max-width: 400px;
+    height: 250px;
+    border-radius: 2px;
+}
+
+article > h3{
+    color: white;
+    font-size: 2em;
+    padding: 20px 0 20px 10px;
+}
+
+article > p{
+    padding: 0 10px;
+    color: white;
+}
+
+article > button{
+    background-color: #00baee;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    max-width: 150px;
+}
+
+.sessao3{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    max-width: 100%;
+}
+
+h4{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.esquerda{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.esquerda > div{
+    display: flex
+}
+
+.imagem2-container{
+    width: 510px;
+    height: 330px;
+    margin-right: 15px;
+}
+
+.imagem2{
+    width: 100%;
+    height: auto;
+}
+
+.esquerda > div > div > p{
+    max-width: 400px;
+    margin-right: 100px;
+    font-size: 1.2em;
+}
+
+.saiba-mais{
+    position: relative;
+    bottom: -50px;
+    font-size: 1.1em;
+}
+
+.direita{
+    max-width: 400px;
+    margin-left: 50px;
+}
+
+.direita > p{
+    background-color: #d5f0ff;
+    padding: 30px;
+    font-size: 1.2em;
+}
+
+.direita > small{
+    position: relative;
+    bottom: -25px;
+    font-size: 1.1em;
+}
+
+footer{
+    background-color: #d5f0ff;
+    width: 100%;
+}
+
+footer > nav{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    justify-content: center;
+}
+
+.link-footer{
+    padding: 20px 30px;
+    color: #4493b1;
+
+}
+
